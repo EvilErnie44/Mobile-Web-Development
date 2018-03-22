@@ -117,26 +117,37 @@ textarea {
 #carSelector {
     width: 100%;
     background-color: #0060a7;
-    height: 25px;
+    height: 100px;
+    text-align: center;
+}
+
+#carSelectModule {
+    padding-top: 15%;
 }
 
 .addBox1 {
     display: inline-block;
-    width: 46%;
-    margin: 1%;
-    height: 100px;
-    border: 1px solid #0060a7;
+    width: 49%;
+    margin: 1% auto;
+    height: auto;
 }
 
+.addBox2 {
+    display: inline-block;
+    width: 49%;
+    margin: 1% auto;
+    box-sizing: border-box;
+    position:relative;
+}
 
 .adButtonright {
-     background-color: rgba(0, 96, 167, 0.45);
+     background-color: rgba(173, 216, 230, 0.25);
      border-color: rgba(0, 96, 167, 0.35);
      border-radius:5px;
-     padding: 10px;
+     padding: 1em;
      display: block;
-     font-size: 15px;
-     margin: 1em auto;
+     font-size: 12px;
+     margin: 0em auto;
      cursor: pointer;
  }
 
@@ -145,13 +156,13 @@ textarea {
 }
 
 .adButtonleft {
-    background-color: rgba(0, 96, 167, 0.45);
+    background-color: rgba(173, 216, 230, 0.25);
     border-color: rgba(0, 96, 167, 0.35);
     border-radius:5px;
-    padding: 10px;
+    padding: 1em;
     display: block;
-    font-size: 15px;
-    margin: 1em auto;
+    font-size: 12px;
+    margin: 2% auto;
     cursor: pointer;
 }
 
@@ -159,10 +170,29 @@ textarea {
     background-color: lightblue;
 }
 
+.carTitle{
+    text-align: left;
+    font-size: 20px;
+}
 
+.carAd {
+    height: 100%;
+    width: 100%;
+    display: inline;
+    margin: auto;
+}
 
+.carPrice {
+    font-size: 18px;
+    font-style: oblique;
+    font-weight: bold;
+}
 
-
+p {
+    font-size: 12px;
+    margin: 0 auto;
+    text-align: center;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */

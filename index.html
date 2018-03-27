@@ -1,0 +1,131 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <!--link Jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+<!-- Add your site or application content here -->
+<div id="carSelector">
+    <p class = "companyBlurb"> <strong>Tees Used Motors </strong> offer a small but quality range of used vehicles across all price ranges.<br>
+        You can buy with confidence as all of our vehicles come with: <br>
+        <strong>12 Months MOT<br>
+        6 Months RAC Warranty<br>
+        HPI Check<br></strong>
+        Part Ex considered and vehicle delivery available. <br>
+    </p>
+    <p class = "clickDescription"> Click here to see our the best vehicles in our range.</p>
+    <div id="carSelectModule">
+    <select name="cars">
+        <option value="defaultManufactuer" selected = "selected">Manufacturer</option>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+    </select>
+    <select name="price">
+        <option value="defaultPrice" selected = "selected">Price</option>
+        <option value="lessThan1000">Less than £1,000</option>
+        <option value="2000to3000">£1,000 to £2,000</option>
+        <option value="2000to3000">£2,000 to £3,000</option>
+        <option value="moreThan4000">More than £4,000</option>
+    </select>
+    </div>
+</div>
+<div id="gridAds">
+    <div>
+        <h1 class="carTitle">Vauxhall Astra 1.4 i Turbo 16v SRi Nav (s/s) 5dr</h1>
+        <div class = "addBox1"> <img class="carAdImg" src="img/car.jpg"/></div>
+            <ul class = carSpecListR>
+                <li>Up To 62.8MPG</li>
+                <li>Apple Car Play</li>
+                <li>10,553 miles from new</li>
+                <li>Automatic</li>
+                <li>148bhp</li>
+                <li>Petrol</li>
+            </ul>
+        <p class = "carPrice">Only £4,299</p>
+        <button type="button" class="adButtonleft">View Vehicle</button>
+    </div>
+    <div>
+        <h1 class="carTitle">Vauxhall Astra 1.4 i Turbo 16v SRi Nav (s/s) 5dr</h1>
+            <ul class = carSpecListL>
+                <li>Up To 62.8MPG</li>
+                <li>Apple Car Play</li>
+                <li>10,553 miles from new</li>
+                <li>Automatic</li>
+                <li>148bhp</li>
+                <li>Petrol</li>
+            </ul>
+        <div class = "addBox2">
+            <img class="carAdImgRight" src="img/car.jpg"/>
+        </div>
+        <p class = "carPrice">Only £4,299</p>
+        <button type="button" class="adButtonleft">View Vehicle</button>
+    </div>
+    <div>
+        <h1 class="carTitle">Vauxhall Astra 1.4 i Turbo 16v SRi Nav (s/s) 5dr</h1>
+        <div class = "addBox1"> <img class="carAdImg" src="img/car.jpg"/></div>
+        <ul class = carSpecListR>
+            <li>Up To 62.8MPG</li>
+            <li>Apple Car Play</li>
+            <li>10,553 miles from new</li>
+            <li>Automatic</li>
+            <li>148bhp</li>
+            <li>Petrol</li>
+        </ul>
+        <p class = "carPrice">Only £4,299</p>
+        <button type="button" class="adButtonleft">View Vehicle</button>
+    </div>
+    <div>
+        <h1 class="carTitle">Vauxhall Astra 1.4 i Turbo 16v SRi Nav (s/s) 5dr</h1>
+        <ul class = carSpecListL>
+            <li>Up To 62.8MPG</li>
+            <li>Apple Car Play</li>
+            <li>10,553 miles from new</li>
+            <li>Automatic</li>
+            <li>148bhp</li>
+            <li>Petrol</li>
+        </ul>
+        <div class = "addBox2">
+            <img class="carAdImgRight" src="img/car.jpg"/>
+        </div>
+        <p class = "carPrice">Only £4,299</p>
+        <button type="button" class="adButtonleft">View Vehicle</button>
+    </div>
+</div>
+
+<script src="js/main.js"></script>
+<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+    window.ga = function () {
+        ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+</html>

@@ -1,0 +1,225 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Teesside Used Motors - Showroom</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <!--link Jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Overlock' rel='stylesheet'>
+
+</head>
+<body>
+
+<header>
+<section class="topnav" id="myTopnav" alt ="navigation menu">
+    <img class="menuImg" src="img/menu_logo.png" alt="menu logo">
+    <div class="linkMenu">
+        <a href="index.html" class="active">Home</a>
+        <a href="prices.html">Car Search</a>
+        <a href="portfolio.html">Compare Cars</a>
+        <a href="about.html">Promotions</a>
+        <a href="contact.html">About</a>
+        <a href="contact.html">Contact us</a>
+    </div>
+</section>
+
+<article id = "siteWrapper">
+
+    <article id="carSelector">
+
+        <p class = "companyBlurb"> <strong>Tees Used Motors </strong> offer a small but quality range of used vehicles across all price ranges.<br>
+            You can buy with confidence as all of our vehicles come with: <br>
+            <strong>
+            12 Months MOT<br>
+            6 Months RAC Breakdown<br>
+            HPI Check<br>
+            </strong>
+            Part Ex considered and vehicle delivery available. <br>
+        </p>
+
+        <div class = "clickDescription"> Click here to see our the best vehicles in our range.
+            <div class="carTitlehide">
+                <a href="www.google.com" class = "promoAdLink">Vauxhall Astra 1.4 i Turbo 16v SRi Nav (s/s) 5dr</a>
+                <a href="www.google.com" class = "promoAdLink">2011 Mercedes C Class 2.1 C200 Cdi</a>
+                <a href="www.google.com" class = "promoAdLink">2011 Honda Cr-V 2.0 I-Vtec Es</a>
+            </div>
+        </div>
+
+    <div id="carSelectModule">
+
+        <select id = "listSelector">
+            <option value="defaultManufactuer" selected = "selected">Manufacturer</option>
+            <option value="vauxhall">Vauxhall</option>
+            <option value="bmw">BMW</option>
+            <option value="merc">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+
+        <select name="price">
+            <option value="defaultPrice" selected = "selected">Price</option>
+            <option value="lessThan1000">Less than £1,000</option>
+            <option value="2000to3000">£1,000 to £2,000</option>
+            <option value="2000to3000">£2,000 to £3,000</option>
+            <option value="moreThan4000">More than £4,000</option>
+        </select>
+
+    </div>
+
+        <div class = "clickReturnElement" id="target"></div>
+
+</article>
+
+
+
+    <article id="gridAds">
+        <div id = "vauxhall">
+            <h2 class="carTitle">Vauxhall Astra 1.4 i Turbo 16v SRi Nav</h2>
+            <div class = "addBox1"> <img class="carAdImg" src="img/vauxall.jpg"/></div>
+                <ul class = carSpecListR>
+                    <li>Up To 54.5MPG</li>
+                    <li>Apple Car Play</li>
+                    <li>21,998 miles from new</li>
+                    <li>Manual</li>
+                    <li>122 bhp</li>
+                    <li>Petrol</li>
+                </ul>
+            <p class = "carPrice">Only £8,799</p>
+            <button type="button" class="adButtonleft">View Vehicle</button>
+        </div>
+
+        <div id = "bmw">
+            <h1 class="carTitle">2011 Bmw 3 Series 2.0 318I M Sport 5dr</h1>
+                <ul class = carSpecListL>
+                    <li>Up To 32.8MPG</li>
+                    <li>Aircon</li>
+                    <li>10,553 miles from new</li>
+                    <li>Full leather interior</li>
+                    <li>208 bhp</li>
+                    <li>Petrol</li>
+                </ul>
+            <div class = "addBox2">
+                <img class="carAdImgRight" src="img/bmw.jpg"/>
+            </div>
+            <p class = "carPrice">Only £13,499</p>
+            <button type="button" class="adButtonleft">View Vehicle</button>
+        </div>
+
+        <div id = "merc">
+            <h1 class="carTitle">2011 Mercedes C Class 2.1 C200 Cdi</h1>
+            <div class = "addBox1"> <img class="carAdImg" src="img/merc.jpg"/></div>
+            <ul class = carSpecListR>
+                <li>Up To 43.3MPG</li>
+                <li>Driver info system</li>
+                <li>42,474 miles from new</li>
+                <li>Automatic</li>
+                <li>148bhp</li>
+                <li>Diesel</li>
+            </ul>
+            <p class = "carPrice">Only £11,299</p>
+            <button type="button" class="adButtonleft">View Vehicle</button>
+        </div>
+
+        <div id = "Honda">
+            <h1 class="carTitle">2011 Honda Cr-V 2.0 I-Vtec Es</h1>
+            <ul class = carSpecListL>
+                <li>Up To 34.2MPG</li>
+                <li>IMMOBILSER</li>
+                <li>76,377 miles from new</li>
+                <li>Manual</li>
+                <li>149bhp</li>
+                <li>Petrol</li>
+            </ul>
+            <div class = "addBox2">
+                <img class="carAdImgRight" src="img/honda.jpg"/>
+            </div>
+            <p class = "carPrice">Only £8,299</p>
+            <button type="button" class="adButtonleft">View Vehicle</button>
+        </div>
+
+        <div>
+            <h1 class="carTitle">2008 Jaguar Xf 2.7 V6 Premium Luxury</h1>
+            <div class = "addBox1"> <img class="carAdImg" src="img/jag.jpg"/></div>
+            <ul class = carSpecListR>
+                <li>Up To 37.7MPG</li>
+                <li>Climate Control</li>
+                <li>34,474 miles from new</li>
+                <li>Manual</li>
+                <li>204bhp</li>
+                <li>Petrol</li>
+            </ul>
+            <p class = "carPrice">Only £7,995</p>
+            <button type="button" class="adButtonleft">View Vehicle</button>
+        </div>
+
+        <div class = "clio">
+            <h1 class="carTitle">Renault Clio 0.9 Dynamique S Medianav Tce</h1>
+            <ul class = carSpecListL>
+                <li>Up To 62.8MPG</li>
+                <li>Media Nav</li>
+                <li>21,998 miles from new</li>
+                <li>Automatic</li>
+                <li>90bhp</li>
+                <li>Petrol</li>
+            </ul>
+            <div class = "addBox2">
+                <img class="carAdImgRight" src="img/renault.jpg"/>
+            </div>
+            <p class = "carPrice">Only £6,995</p>
+            <button type="button" class="adButtonleft">View Vehicle</button>
+        </div>
+    </article>
+</article>
+
+<article id = "tableContainer">
+    <table id = "vehicleCheckTable">
+        <tr>
+            <td>HPI Clear</td> <td>&#x2714;</td>
+        </tr>
+        <tr>
+            <td>Credit Checked</td> <td>&#x2714;</td>
+        </tr>
+        <tr>
+            <td>12 Months MOT</td> <td>&#x2714;</td>
+        </tr>
+        <tr>
+            <td>6 Months RAC Breakdown</td> <td>&#x2714;</td>
+        </tr>
+    </table>
+</article>
+
+
+<script src="js/jQuery.js"></script>
+<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+    window.ga = function () {
+        ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+</html>

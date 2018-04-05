@@ -154,6 +154,10 @@ ul {
     width: auto;
 }
 
+.childDiv{
+  background-color: rgba(191, 191, 191, 0.88);
+}
+
 .addBox1 {
     display: inline-block;
     width: 48%;
@@ -356,14 +360,14 @@ header nav ul{
 
 header a {
 color: #0060a7;
-margin-left: 10px;
-margin-right: 10px;
+
 }
 
 
 .menuItems {
   text-align: center;
   z-index: 100;
+  display: flex;
 }
 
 .logo {
@@ -379,6 +383,10 @@ li:hover {
   position: fixed;
   top: 0;
   width:100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
 }
 
 .navwrap{
@@ -430,7 +438,7 @@ nav {
 
   header nav ul li a {
   color: #fff;
-  padding: 10px;
+  padding: 2px;
   border-bottom: 1px solid #404040;
   display: block;
   margin:0;
@@ -455,6 +463,16 @@ nav {
     .addBox2 {
         width: 60%;
     }
+}
+
+@media screen and (max-width: 480px) {
+
+  .menuItems {
+    text-align: center;
+    z-index: 100;
+    display: block;
+  }
+
 }
 
 @media screen and (min-width: 500px) {
